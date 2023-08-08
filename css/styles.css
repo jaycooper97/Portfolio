@@ -133,7 +133,10 @@ hr {
   margin: 1rem 0;
   color: inherit;
   border: 0;
-  border-top: 1px solid;
+height: 100%;
+width: 100%;
+padding: 0;
+margin: 0;
   opacity: 0.25;
 }
 
@@ -7379,6 +7382,10 @@ textarea.form-control-lg {
 
 .flex-grow-1 {
   flex-grow: 1 !important;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .flex-shrink-0 {
@@ -7723,6 +7730,7 @@ textarea.form-control-lg {
   color: #141619;
   font-size: x-large;
 }
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -10907,7 +10915,6 @@ h1, .h1 {
 }
 
 p.lead {
-  font-size: 1.15rem;
   font-weight: 400;
 }
 
@@ -11004,22 +11011,23 @@ section.resume-section {
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
+
   /* max-width: 75rem; */
 }
-section.resume-section .resume-section-content {
+section.resume-section .resume-section-content{
   width: 100%;
 }
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 0;
   }
 }
 @media (min-width: 992px) {
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 5rem;
+    padding-top: 0;
     padding-bottom: 5rem;
   }
 }
