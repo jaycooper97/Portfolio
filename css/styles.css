@@ -7697,7 +7697,6 @@ textarea.form-control-lg {
 .mb-0 {
   margin-bottom: 0 !important;
   color: #484685;
-  margin: 80px 60px;
 }
 .mb-2{
   color: #343A40;
@@ -7726,6 +7725,7 @@ textarea.form-control-lg {
 .mb-5 {
   margin-bottom: 3rem !important;
   color: #0057A4;
+  margin: 80px 60px;
 }
 .par{
   color: #141619;
