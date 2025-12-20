@@ -7702,7 +7702,6 @@ textarea.form-control-lg {
 }
 .mb-2{
   color: #343A40;
-  padding: 20px;
 }
 
 .mb-1 {
@@ -8102,6 +8101,7 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: #20c997, var(--bs-text-opacity) !important;
+  padding: 20px;
 }
 
 .text-secondary {
