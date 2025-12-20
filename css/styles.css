@@ -7729,6 +7729,7 @@ textarea.form-control-lg {
 .par{
   color: #141619;
   font-size: x-large;
+  padding: 80px 60px;
 }
 
 .mb-auto {
@@ -11007,11 +11008,10 @@ p.lead {
 section.resume-section {
   /* display: flex; */
   align-items: center;
-  padding: 80px 60px;
-  /* padding-left: 1rem;
+  padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 5rem;
-  padding-bottom: 5rem; */
+  padding-bottom: 5rem;
 
   /* max-width: 75rem; */
 }
