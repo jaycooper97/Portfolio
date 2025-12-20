@@ -7725,11 +7725,12 @@ textarea.form-control-lg {
 .mb-5 {
   margin-bottom: 3rem !important;
   color: #0057A4;
+  margin: 12px;
 }
 .par{
   color: #141619;
   font-size: x-large;
-  margin: 20px 20px;
+  margin: 15px 20px;
 }
 
 .mb-auto {
