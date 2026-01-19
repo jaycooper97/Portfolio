@@ -6872,7 +6872,14 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
-@media (min-width: 992px) {
+
+/*Mobile (Portrait)	320px – 480px: (width <= 480px)*/
+/* Tablets / Large Phones	481px – 768px:(481px <= width <= 768px) */
+/* Laptops / Small Desktops	769px – 1024px: (769px <= width <= 1024px) */
+/* Large Desktops	1025px and up: 	(width >= 1025px) */
+
+
+@media (320px <= width <= 480px) {
   .sticky-lg-top {
     position: sticky;
     top: 0;
@@ -6884,7 +6891,8 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
-@media (min-width: 1200px) {
+
+@media (481px <= width <= 768px) {
   .sticky-xl-top {
     position: sticky;
     top: 0;
@@ -6896,7 +6904,7 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
-@media (min-width: 1400px) {
+@media (769px <= width <= 1024px) {
   .sticky-xxl-top {
     position: sticky;
     top: 0;
@@ -10895,7 +10903,7 @@ body {
   color: #6c757d;
 }
 
-@media (min-width: 992px) {
+@media (320px <= width <= 480px) {
   body {
     padding-top: 0;
     padding-left: 17rem;
@@ -10945,7 +10953,7 @@ p.lead {
   outline-color: #d48a6e;
 }
 
-@media (min-width: 992px) {
+@media (481px <= width <= 768px) {
   #sideNav {
     padding-left: 0;
     padding-right: 0;
@@ -11024,12 +11032,12 @@ section.resume-section .resume-section-content{
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (481px <= width <= 768px) {
   section.resume-section {
     min-height: 0;
   }
 }
-@media (min-width: 992px) {
+@media (769px <= width <= 1024px) {
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
