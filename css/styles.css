@@ -6917,6 +6917,18 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
+@media (width >= 1025px) {
+  .sticky-xxxl-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+  .sticky-xxxl-bottom {
+    position: sticky;
+    bottom: 0;
+    z-index: 1020;
+  }
+}
 .hstack {
   display: flex;
   flex-direction: row;
