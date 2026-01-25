@@ -11101,6 +11101,7 @@ section.resume-section .resume-section-content{
   .list-inline{
     margin-left: 15px;
   }
+}
 @media (769px <= width <= 1024px) {
   section.resume-section {
     padding-left: 3rem;
